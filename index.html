@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <div class="logo">FamilyItalian</div>
+            <ul>
+
+                <li>Delivery</li>
+                <a href="">
+                    <li>(14) 99999-9999</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-conteudo">
+            <div>
+                <ion-icon name="location-outline"></ion-icon> <span>Botucatu-SP</span>
+                <h1>Faça o seu próprio combo!</h1>
+            </div>
+            <img src="imagem/pizza.png" alt="">
+        </div>
+    </main>
+
+    <button class="btn-fazer-pedido" onclick="fazerPedido()">Fazer pedido</button>
+
+    <section class="pizza">
+        <div class="container-descricao">PIZZA</div>
+        <div class="slide">
+            <div class="container-pizza" id="peperone" onclick="escolherPeperone()">
+                <div class="pizza-card">
+                    <p>PEPERONE</p>
+                    <span>queijo e peperone</span>
+                    <img src="imagem/peperone.png" alt="">
+                    <div>R$ 45,00</div>
+                </div>
+            </div>
+
+            <div class="container-pizza" id="portuguesa" onclick="escolherPortuguesa()">
+                <div class="pizza-card">
+                    <p>PORTUGUESA</p>
+                    <span>presunto, queijo, tomate, oregano, ovo, milho, cebola, ervilha</span>
+                    <img src="imagem/portuguesa.png" alt="">
+                    <div>R$ 55,00</div>
+                </div>
+            </div>
+
+            <div class="container-pizza" id="marguerita" onclick="escolherMarguerita()">
+                <div class="pizza-card">
+                    <p>MARGUERITA</p>
+                    <span>queijo, tomate, oregano</span>
+                    <img src="imagem/marguerita.png" alt="">
+                    <div>R$ 50,00</div>
+                </div>
+            </div>
+
+            <div class="container-pizza" id="calabresa" onclick="escolherCalabresa()">
+                <div class="pizza-card">
+                    <p>CALABRESA</p>
+                    <span>queijo e calabresa</span>
+                    <img src="imagem/calabresa.png" alt="">
+                    <div>R$ 40,00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bebidas">
+        <div class="container-descricao">BEBIDAS</div>
+        <div class="slide">
+            <div class="container-bebidas" id="coca-cola" onclick="escolherCoca()">
+                <div class="bebida-card">
+                    <p>COCA-COLA</p>
+                    <img src="" alt="">
+                    <div>R$ 10,00</div>
+                </div>
+            </div>
+
+            <div class="container-bebidas" id="pepsi" onclick="escolherPepsi()">
+                <div class="bebida-card">
+                    <p>PEPSI</p>
+                    <img src="" alt="">
+                    <div>R$ 9,50</div>
+                </div>
+            </div>
+
+            <div class="container-bebidas" id="fanta" onclick="escolherFanta()">
+                <div class="bebida-card">
+                    <p>FANTA</p>
+                    <img src="" alt="">
+                    <div>R$ 8,00</div>
+                </div>
+            </div>
+
+            <div class="container-bebidas" id="guarana" onclick="escolherGuarana()">
+                <div class="bebida-card">
+                    <p>GUARANÁ</p>
+                    <img src="" alt="">
+                    <div>R$ 9,00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobremesas">
+        <div class="container-descricao">SOBREMESAS</div>
+        <div class="slide">
+            <div class="container-sobremesas" id="pudim" onclick="escolherPudim()">
+                <div class="sobremesas-card">
+                    <p>PUDIM</p>
+                    <img src="" alt="">
+                    <div>R$ 10,00</div>
+                </div>
+            </div>
+
+            <div class="container-sobremesas" id="bolo-cenoura" onclick="escolherBoloDeCenoura()">
+                <div class="sobremesas-card">
+                    <p>BOLO DE CENOURA</p>
+                    <img src="" alt="">
+                    <div>R$ 8,00</div>
+                </div>
+            </div>
+
+            <div class="container-sobremesas" id="cocada" onclick="escolherCocada()">
+                <div class="sobremesas-card">
+                    <p>COCADA</p>
+                    <img src="" alt="">
+                    <div>R$ 4,00</div>
+                </div>
+            </div>
+
+            <div class="container-sobremesas" id="sagu" onclick="escolherSagu()">
+                <div class="sobremesas-card">
+                    <p>SAGU</p>
+                    <img src="" alt="">
+                    <div>R$ 3,00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>Melhor delivery de Botucatu-SP</div>
+    </footer>
+
+
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script type="text/javascript"  src="index.js"></script>
+
+</html>

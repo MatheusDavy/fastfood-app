@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=League+Gothic&family=Yellowtail&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DFDFDF;
+}
+
+/*cabeçalho*/
+header{
+    width: 100%;
+    height: 70px;
+    font-family: 'Hubballi', cursive;
+    font-weight: bold;
+}
+.logo{
+    font-size: 45px;
+    color: rgb(223, 7, 7);
+    font-style: italic;
+}
+header div{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    margin-left: 5%;
+}
+header div ul{
+    display: flex;
+}
+header div ul a{
+    text-decoration: none;
+    color: black;
+}
+header div ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+
+/*conteúdo*/
+
+main{
+    height: 350px;
+}
+
+main img{
+    margin-top: -50px;
+    margin-right: 10%;
+    width: 400px;
+    height: 400px;
+}
+.container-conteudo{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+main ion-icon{
+    color: red;
+    fill: red;   
+    margin-left: 10px; 
+}
+main span{
+    margin-left: 10px;
+    margin-top: -5px;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    font-family: 'Hubballi', cursive;
+}
+main h1{
+    font-size: 70px;
+    font-family: 'Yellowtail', cursive;
+}
+.container-conteudo div{
+    width: 40%;
+}
+
+
+
+.btn-fazer-pedido{
+    position: fixed;
+    top: 400px;    
+    left: 80%;
+    float: right;
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+
+
+
+
+/*SECTION*/
+
+.container-descricao{
+    width: 50%;
+    margin-left: 7%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Hubballi', cursive;
+}
+.pizza{
+    font-size: 40px;
+    font-family: 'League Gothic', sans-serif;   
+}
+.slide{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    width: 50%;
+    overflow-x: scroll;
+}
+.slide::-webkit-scrollbar{
+    height: 6px;
+    background-color: rgb(148, 148, 148);
+    border-radius: 100px;
+}   
+.slide::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 100px;
+}
+.container-pizza{
+    background-color: white;
+    border-radius: 20px;
+    height: 330px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-width: 5px;
+    border-color: transparent;
+    border-style: solid;
+}
+.pizza-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    width: 200px;
+    height: 310px;
+    margin-top: 10px;
+}
+.pizza-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+.pizza-card p{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    margin: auto;
+    font-family: 'League Gothic', sans-serif;   
+}
+.pizza-card span{
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+    color:#555454;
+    margin-top: -10px;
+    height: 23px;
+    
+}
+
+.pizza-card div{
+    color: rgb(135, 4, 4);
+    font-size: 20px;
+    margin: auto;
+}
+
+
+
+.bebidas{
+    font-size: 40px;
+    font-family: 'League Gothic', sans-serif;   
+}
+.container-bebidas{
+    border-radius: 20px;
+    height: 330px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-width: 5px;
+    border-color: transparent;
+    border-style: solid;
+    background-color: white;
+}
+.bebida-card{
+    display: flex;
+    flex-direction: column;
+
+    width: 200px;
+    height: 310px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.bebida-card p{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    margin: auto;
+    font-family: 'League Gothic', sans-serif;   
+}
+.bebida-card div{
+    color: rgb(135, 4, 4);
+    font-size: 20px;
+    margin: auto;
+}
+
+/*sobremesas*/
+.sobremesas{
+    font-size: 40px;
+    font-family: 'League Gothic', sans-serif;   
+}
+.container-sobremesas{
+    border-radius: 20px;
+    height: 330px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-width: 5px;
+    border-color: transparent;
+    border-style: solid;
+    background-color: white;
+}
+.sobremesas-card{
+    display: flex;
+    flex-direction: column;
+
+    width: 200px;
+    height: 310px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.sobremesas-card p{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    margin: auto;
+    font-family: 'League Gothic', sans-serif;   
+}
+.sobremesas-card div{
+    color: rgb(135, 4, 4);
+    font-size: 20px;
+    margin: auto;
+}
+
+
+/*footer*/
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    justify-content: center;
+    font-size: 15px;
+    display: flex;
+}
+footer div{
+    margin: 0 auto;
+    margin-top: 15px;
+}
